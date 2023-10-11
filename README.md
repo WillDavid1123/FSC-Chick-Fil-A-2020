@@ -1,11 +1,11 @@
 This project comes with a .in file that is read from for the program to run through and create a .out file. To change it to a different size, keep these constraints in place
 
-The first number represents the number of simulated days that the program will run through (n)
-After that there are n number of numbers that represent the number of customers for that day (m)
-After that there are m number of customers in the following format:   
-    <number of minutes after 12 that they arrive> <first name> <last name> <number of orders (p)>
-After each customer there are p orders in the following format:
-    <Order, specific inputs in MenuItem.java> <number of that item they ordered>
+- The first number represents the number of simulated days that the program will run through (n)
+- After that, there are n number of numbers that represent the number of customers for that day (m)
+- After that there are m number of customers in the following format:   
+    - (number of minutes after 12 that they arrive) (first-name) (last-name) (number of orders [p])
+- After each customer, there are p orders in the following format:
+    - (Order, specific inputs in MenuItem.java) (number of that item they ordered)
     
 As an example, here is a shortened version (Each bullet point is its own line):
 - 1
